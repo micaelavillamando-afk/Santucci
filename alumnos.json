@@ -5,14 +5,14 @@
             "apellido": "D'acunto",
             "departamento": "Departamento de Desarrollo y Diseño de Dispositivos",
             "proyecto": "Computadora de Santucci",
-            "foto":"/img/ROBLOXIANO.jfif"
+            "foto":"./img/ROBLOXIANO.jfif"
         },
         {
             "nombre": "Mika" ,
             "apellido": "Villamando",
             "departamento": "Departamento de Desarrollo y Diseño Web",
             "proyecto": "Pagina web",
-            "foto":"/img/TATUADOR.jfif"
+            "foto":"./img/TATUADOR.jfif"
 
         },
         {

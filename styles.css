@@ -96,6 +96,13 @@
 /* ===== Responsive (solo en móviles) ===== */
 /* ===== Responsive (solo en móviles) ===== */
 @media (max-width: 768px) {
+  .header-santucci{
+    height: 4em;
+  }
+  
+  .equipo{
+    max-width: 100%;
+  }
   .menu-hamburguesa {
     display: flex;
   }

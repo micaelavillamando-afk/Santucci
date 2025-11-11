@@ -83,6 +83,7 @@
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
+  margin-left: 220px;
 }
 
 .menu-hamburguesa span {
@@ -96,13 +97,6 @@
 /* ===== Responsive (solo en móviles) ===== */
 /* ===== Responsive (solo en móviles) ===== */
 @media (max-width: 768px) {
-  .header-santucci{
-    height: 4em;
-  }
-  
-  .equipo{
-    max-width: 100%;
-  }
   .menu-hamburguesa {
     display: flex;
   }
@@ -379,7 +373,7 @@
 
   /* ===== EQUIPO ===== */
 .equipo {
-
+  max-width: 1400px;
   margin: auto;
   padding: 2rem;
   text-align: center;
@@ -729,3 +723,66 @@ footer {
     background-repeat: no-repeat;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* Fondo negro total y centrado */
+/* body {
+  margin: 0;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif;
+} */
+
+/* Ocultamos header y footer */
+/* header, footer {
+  display: none;
+} */
+
+/* Botón grande y luminoso */
+.start-button {
+  background-color: #ff0000;
+  color: white;
+  font-size: 3rem;
+  padding: 1.5em 3em;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000, 0 0 60px #ff0000;
+  animation: blink 1s infinite;
+  transition: transform 0.2s ease;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Efecto de pulsación */
+.start-button:hover {
+  transform: scale(1.1);
+}
+
+/* Titileo tipo luz de neón */
+@keyframes blink {
+  0%, 100% {
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000;
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 5px #660000, 0 0 10px #660000;
+    opacity: 0.7;
+  }
+}
+
